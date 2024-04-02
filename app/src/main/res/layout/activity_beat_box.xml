@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/ll_private"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="78dp">-->
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_less"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintRight_toLeftOf="@+id/iv_add"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:src="@mipmap/ein_icon_less_on" />-->
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_add"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintRight_toRightOf="parent"-->
+<!--                android:src="@mipmap/ein_icon_add_on_select" />-->
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+    </LinearLayout>
+</layout>
